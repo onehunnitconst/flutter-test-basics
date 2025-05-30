@@ -7,7 +7,7 @@ import 'package:mockito/mockito.dart';
 
 import 'fetcher_test.mocks.dart';
 
-@GenerateMocks([http.Client])
+
 void main() {
   group('fetchAlbum', () {
     test('Album이 정상적으로 반환되어야 한다', () {
